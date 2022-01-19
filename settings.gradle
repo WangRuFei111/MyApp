@@ -1,0 +1,7 @@
+include ':cameratwo'
+include ':camera2'
+include ':sticker'
+include ':sortAdpater'
+include ':calendar'
+include ':app'
+rootProject.name = "App"

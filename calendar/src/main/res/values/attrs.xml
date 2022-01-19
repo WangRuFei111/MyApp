@@ -1,0 +1,26 @@
+<resources>
+    <declare-styleable name="WeekBarView">
+        <attr name="week_text_color" format="color" />
+        <attr name="week_text_size" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MonthCalendarView">
+        <attr name="month_selected_text_color" format="color" /><!-- 选中日期字体颜色-->
+        <attr name="month_selected_today_text_color" format="color" /><!-- 选中当天日期字体颜色-->
+        <attr name="month_selected_circle_color" format="color" /><!-- 非当天选中日期样式颜色-->
+        <attr name="month_selected_circle_today_color" format="color" /><!-- 当天选中日期样式颜色-->
+        <attr name="month_normal_text_color" format="color" /><!--日期字体颜色-->
+        <attr name="month_today_text_color" format="color" /><!--当天日期字体颜色-->
+        <attr name="month_lunar_text_color" format="color" /><!--农历字体颜色-->
+        <attr name="month_hint_circle_color" format="color" /><!--圆点颜色-->
+        <attr name="month_holiday_color" format="color" /><!--节日颜色-->
+        <attr name="month_last_or_next_month_text_color" format="color" /><!--补位的日期颜色-->
+        <attr name="month_day_text_size" format="integer" /><!--日期字体-->
+        <attr name="month_day_lunar_text_size" format="integer" /><!--农历字体-->
+        <attr name="month_show_task_hint" format="boolean" /><!--圆点-->
+        <attr name="month_show_lunar" format="boolean" /><!--是否开启农历-->
+        <attr name="month_count" format="integer" />
+    </declare-styleable>
+
+
+</resources>

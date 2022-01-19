@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mylibrary.camera2.JCameraView
+        android:id="@+id/JCameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--    <com.mylibrary.camera2.JCameraView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:iconSize=""        //图标大小-->
+    <!--        app:iconMargin=""      //右上边距-->
+    <!--        app:iconSrc=""          //图标资源-->
+    <!--        app:iconLeft=""         //左图标-->
+    <!--        app:iconRight=""       //右图标-->
+    <!--        app:duration=""      //录制时间s-->
+    <!--    />-->
+
+
+
+</RelativeLayout>
